@@ -13,7 +13,7 @@ public class ProducerManager implements CSProcess {
         this.toProducers = toProducers;
         this.numBuffers = numBuffers;
         this.numOperations = numOperations;
-    }
+    } // constructor
 
     public void run() {
 //        System.out.println("ProducerManager started.");
